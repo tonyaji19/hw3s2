@@ -1,0 +1,25 @@
+.btn{
+    border: none;
+    outline: none;
+    background: rgb(156, 159, 167);
+    color: white;
+    padding: 6px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 0 rgb(121, 122, 124);
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover{
+    background: rgb(135, 138, 143);
+    transition: none;
+}
+
+.btn:active{
+    box-shadow: none;
+    position: relative;
+    top: 4px;
+}
